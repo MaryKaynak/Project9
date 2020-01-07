@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Project9">
+    <parameter name="username" value="admin"></parameter>
+    <parameter name="password" value="admin"></parameter>
+    <test name = "TestNG">
+        <classes>
+            <class name="project9.project9"></class>
+
+        </classes>
+    </test>
+    <test name="group">
+
+    </test>
+</suite>
